@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "id": "1695",
+            "parent_exercise_id": null,
+            "name": "Padhain Shuru Karein",
+            "slug": "interesting-naam__padhai-shuru-karein",
+            "sequence_num": 1000,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/interesting-naam/padhai-shuru-karein.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1696",
+            "parent_exercise_id": null,
+            "name": "tools",
+            "slug": "interesting-naam__tools",
+            "sequence_num": 2000,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/interesting-naam/tools.md",
+            "submission_type": null,
+            "childExercises": []
+        }
+    ]
+}

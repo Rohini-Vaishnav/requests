@@ -1,0 +1,37 @@
+{
+    "data": [
+        {
+            "id": "1887",
+            "parent_exercise_id": null,
+            "name": "Introduction",
+            "slug": "framework__intro",
+            "sequence_num": 0,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/framework/intro.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1888",
+            "parent_exercise_id": null,
+            "name": "Need To Serve",
+            "slug": "framework__need-to-serve",
+            "sequence_num": 100,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/framework/need-to-serve.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1889",
+            "parent_exercise_id": null,
+            "name": "How to Learn?",
+            "slug": "framework__how-to-learn",
+            "sequence_num": 200,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/framework/how-to-learn.md",
+            "submission_type": null,
+            "childExercises": []
+        }
+    ]
+}

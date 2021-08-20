@@ -1,0 +1,279 @@
+{
+    "data": [
+        {
+            "id": "1756",
+            "parent_exercise_id": null,
+            "name": "introduction",
+            "slug": "using-linux__introduction",
+            "sequence_num": 0,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/introduction.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1757",
+            "parent_exercise_id": null,
+            "name": "cd",
+            "slug": "using-linux__cd",
+            "sequence_num": 100,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/cd.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1775",
+            "parent_exercise_id": null,
+            "name": "pwd",
+            "slug": "using-linux__pwd",
+            "sequence_num": 200,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/pwd.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1776",
+            "parent_exercise_id": null,
+            "name": "current-directory",
+            "slug": "using-linux__current-directory",
+            "sequence_num": 300,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/current-directory.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1758",
+            "parent_exercise_id": null,
+            "name": "mkdir",
+            "slug": "using-linux__mkdir",
+            "sequence_num": 400,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/mkdir.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1766",
+            "parent_exercise_id": null,
+            "name": "ls",
+            "slug": "using-linux__ls",
+            "sequence_num": 500,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/ls.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1777",
+            "parent_exercise_id": null,
+            "name": "permissions",
+            "slug": "using-linux__permissions",
+            "sequence_num": 600,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/permissions.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1764",
+            "parent_exercise_id": null,
+            "name": "sudo",
+            "slug": "using-linux__sudo",
+            "sequence_num": 700,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/sudo.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1765",
+            "parent_exercise_id": null,
+            "name": "case",
+            "slug": "using-linux__case",
+            "sequence_num": 800,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/case.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1760",
+            "parent_exercise_id": null,
+            "name": "nautilus",
+            "slug": "using-linux__nautilus",
+            "sequence_num": 900,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/nautilus.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1759",
+            "parent_exercise_id": null,
+            "name": "apt",
+            "slug": "using-linux__apt",
+            "sequence_num": 1000,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/apt.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1762",
+            "parent_exercise_id": null,
+            "name": "echo",
+            "slug": "using-linux__echo",
+            "sequence_num": 1100,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/echo.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1761",
+            "parent_exercise_id": null,
+            "name": "sleep",
+            "slug": "using-linux__sleep",
+            "sequence_num": 1200,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/sleep.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1769",
+            "parent_exercise_id": null,
+            "name": "wget",
+            "slug": "using-linux__wget",
+            "sequence_num": 1300,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/wget.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1763",
+            "parent_exercise_id": null,
+            "name": "statements",
+            "slug": "using-linux__statements",
+            "sequence_num": 1400,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/statements.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1773",
+            "parent_exercise_id": null,
+            "name": "bashrc",
+            "slug": "using-linux__bashrc",
+            "sequence_num": 1500,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/bashrc.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1767",
+            "parent_exercise_id": null,
+            "name": "chown",
+            "slug": "using-linux__chown",
+            "sequence_num": 1600,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/chown.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1768",
+            "parent_exercise_id": null,
+            "name": "chmod",
+            "slug": "using-linux__chmod",
+            "sequence_num": 1700,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/chmod.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1770",
+            "parent_exercise_id": null,
+            "name": "top",
+            "slug": "using-linux__top",
+            "sequence_num": 1800,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/top.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1779",
+            "parent_exercise_id": null,
+            "name": "editors",
+            "slug": "using-linux__editors",
+            "sequence_num": 1900,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/editors.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1772",
+            "parent_exercise_id": null,
+            "name": "which",
+            "slug": "using-linux__which",
+            "sequence_num": 2000,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/which.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1771",
+            "parent_exercise_id": null,
+            "name": "bin-folder",
+            "slug": "using-linux__bin-folder",
+            "sequence_num": 2100,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/bin-folder.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1774",
+            "parent_exercise_id": null,
+            "name": "apna-program-banaye",
+            "slug": "using-linux__apna-program-banaye",
+            "sequence_num": 2200,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/apna-program-banaye.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1778",
+            "parent_exercise_id": null,
+            "name": "executable-in-python",
+            "slug": "using-linux__executable-in-python",
+            "sequence_num": 2300,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/executable-in-python.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "1780",
+            "parent_exercise_id": null,
+            "name": "bash",
+            "slug": "using-linux__bash",
+            "sequence_num": 2400,
+            "review_type": "peer",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/bash.md",
+            "submission_type": null,
+            "childExercises": []
+        }
+    ]
+}
