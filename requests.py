@@ -12,15 +12,15 @@ def createJsonFile(fileName,responseOfCoursesInText):
         json.dump(data,f,indent=4)
 def printingCourses(data):
     availableCourses=data["availableCourses"]
-    index=0
+    index=1
     for i in availableCourses:
         print(index,i["name"],i["id"])
         print()
         listOfCourseIds.append(i["id"])
         list_of_course.append(i["name"])
         index+=1
-def printingExercises(d,listOfslugs):
-    responseOfExercises=(d['data'])
+def printingExercises(data,listOfslugs):
+    responseOfExercises=(data['data'])
     i=0
     slug_list=[]
     while i<len(responseOfExercises):
@@ -76,32 +76,38 @@ def main():
         createJsonFile(fileNameOfExercise,responseOfExerciseCoursesInText)
         data=readJsonFile(fileNameOfExercise)
         printingExercises(data,listOfslugs)
-    user_1=input("what you want 1.up, 2.slug :")
-    if user_1=="up":
-        main()
+    # user_1=input("what you want 1.up, 2.slug :")
+    # if user_1=="up":
+        # main()
+    # else:
+    PrintingSlugs(listOfslugs) 
+    print("SLUG AAYA HAI")
+    index=0
+    while index<len(listOfslugs):
+        print(index+1, listOfslugs[index])
+        index=index+1
     else:
-        PrintingSlugs(listOfslugs) 
-        print("SLUG AAYA HAI")
-        userSelectedSlug=int(input("select a slug index: "))
-        # print(listOfslugs)
-        # print(listOfslugs[userSelectedSlug])
-        CallingSlugApi(userSelectedSlug,listOfCourseIds,userSelectedCourse,listOfslugs)
-        # print()
-        print("WHAT'S NEXT")
-        # print()
-        while True:
-            seeAgain=int(input("enter what you want to do 1.up, 2.Next, 3.Previous, 4.stop :"))
-            if seeAgain=="1":
-                main()
-            elif seeAgain=="2":
-                slugIncreased=userSelectedSlug+1
-                CallingSlugApi(slugIncreased,listOfCourseIds,userSelectedCourse,listOfslugs)
-            elif seeAgain=="3":
-                slugIncreased=userSelectedSlug-1
-                CallingSlugApi(slugIncreased,listOfCourseIds,userSelectedCourse,listOfslugs)
-            elif seeAgain=="4":
-                print("Thank you")
-                break
-            else:
-                pass    
+        print("there is no",index,"slug only")
+    print()
+    userSelectedSlug=int(input("select a slug index: "))
+    # print(listOfslugs)
+    # print(listOfslugs[userSelectedSlug])
+    CallingSlugApi(userSelectedSlug,listOfCourseIds,userSelectedCourse,listOfslugs)
+    # print()
+    print("WHAT'S NEXT")
+    while True:
+        seeAgain=input("enter what you want to do 1.up, 2.Next, 3.Previous, 4.stop :")
+        if seeAgain=="1":
+            main()
+        elif seeAgain=="2":
+            slugIncreased=userSelectedSlug+1
+            CallingSlugApi(slugIncreased,listOfCourseIds,userSelectedCourse,listOfslugs)
+        elif seeAgain=="3":
+            slugIncreased=userSelectedSlug-1
+            CallingSlugApi(slugIncreased,listOfCourseIds,userSelectedCourse,listOfslugs)
+        elif seeAgain=="4":
+            print("Thank you")
+            break
+        else:
+            pass            
 main()
